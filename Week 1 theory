@@ -1,0 +1,72 @@
+Theory Concepts
+🔹 1. Variables
+
+A variable is a named location used to store data.
+You don’t need to declare the type — Python infers it automatically.
+
+x = 10         # integer
+name = "Paras" # string
+pi = 3.14      # float
+Variables are dynamically typed (type can change at runtime).
+
+🔹 2. Data Types
+| Type    | Example                | Description                  |
+| ------- | ---------------------- | ---------------------------- |
+| `int`   | `x = 5`                | Whole numbers                |
+| `float` | `x = 3.14`             | Decimal numbers              |
+| `str`   | `x = "Hello"`          | Sequence of characters       |
+| `bool`  | `x = True`             | Boolean (True/False)         |
+| `list`  | `x = [1, 2, 3]`        | Mutable ordered collection   |
+| `tuple` | `x = (1, 2, 3)`        | Immutable ordered collection |
+| `set`   | `x = {1, 2, 3}`        | Unique unordered elements    |
+| `dict`  | `x = {"a": 1, "b": 2}` | Key-value pairs              |
+
+🔹 3. Operators
+➤ Arithmetic Operators:
++, -, *, /, //, %, **
+a, b = 10, 3
+print(a + b)  # 13
+print(a / b)  # 3.333...
+print(a // b) # 3 (integer division)
+print(a ** b) # 1000 (power)
+
+
+➤ Comparison Operators:
+==, !=, >, <, >=, <=
+
+➤ Logical Operators:
+and, or, not
+
+➤ Assignment Operators:
+=, +=, -=, *=, /=, //=, %=
+x = 5
+x += 3  # x = x + 3 → 8
+
+
+
+🔹 4. Input / Output
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print("Hello", name, "- You are", age, "years old.")
+
+input() always returns a string, so use type casting (int(), float(), etc.) when needed.
+
+🔹 6. Loops
+➤ For Loop
+Used to iterate over sequences:
+for i in range(5):  # 0 to 4
+    print(i)
+
+➤ While Loop
+Runs until a condition is false:
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+
+➤ Loop Control Statements
+| Statement  | Description              |
+| ---------- | ------------------------ |
+| `break`    | Exit the loop            |
+| `continue` | Skip current iteration   |
+| `pass`     | Do nothing (placeholder) |

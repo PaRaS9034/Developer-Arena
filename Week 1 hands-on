@@ -1,0 +1,46 @@
+1. Temperature Converter
+Program: Convert temperature from Celsius to Fahrenheit
+
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"Temperature in Fahrenheit: {fahrenheit}")
+
+
+2. Simple Calculator
+Program: Perform basic arithmetic operations
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("Select operation: +, -, *, /")
+op = input("Enter operator: ")
+
+if op == '+':
+    print("Result:", num1 + num2)
+elif op == '-':
+    print("Result:", num1 - num2)
+elif op == '*':
+    print("Result:", num1 * num2)
+elif op == '/':
+    if num2 != 0:
+        print("Result:", num1 / num2)
+    else:
+        print("Error: Division by zero!")
+else:
+    print("Invalid operator!")
+
+
+
+3. Number Guessing Game (Loop Practice)
+
+secret = 7
+guess = 0
+
+while guess != secret:
+    guess = int(input("Guess the number (1–10): "))
+    if guess < secret:
+        print("Too low!")
+    elif guess > secret:
+        print("Too high!")
+    else:
+        print("You got it!")

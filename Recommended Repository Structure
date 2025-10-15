@@ -1,0 +1,24 @@
+6-Month-Data-Science-Roadmap/
+├── Month-1-Python-Programming/
+│   ├── theory_notes/
+│   ├── mini_projects/
+│   └── finance_manager_project/
+├── Month-2-Data-Analysis/
+│   ├── datasets/
+│   ├── notebooks/
+│   └── dashboards/
+├── Month-3-Database-APIs/
+│   ├── SQL_Scripts/
+│   ├── API_Projects/
+│   └── ETL_Pipeline/
+├── Month-4-Machine-Learning/
+│   ├── models/
+│   ├── feature_engineering/
+│   └── ml_project/
+├── Month-5-Advanced-Topics/
+│   ├── NLP/
+│   ├── DeepLearning/
+│   └── TimeSeries/
+└── Month-6-Capstone/
+    ├── capstone_project/
+    └── portfolio/
